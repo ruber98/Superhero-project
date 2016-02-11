@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heroes</title>
+        <link rel="stylesheet" type="text/css" href= "style.css">
+   
+    </head>
+    
+    <body>
+            <button class="myButton">Villians Beware!!!</button>
+
+    <h1 class="red"> The Man of Every Hour!!!</h1>
+    <h2>Villians Beware!!!</h2>
+<img class="bruce" src="http://static1.squarespace.com/static/53dd1afbe4b0b84c71f80ab2/t/5608a540e4b0fb7874bd732d/1443407170396/" alt="Demonstration" style="width:304px;height:228px;">
+   <button id="close" class="closing" onClick="javascript:close_clip()"><img src="icons/close.png" /></button>
+
+<p><a href="https://en.wikipedia.org/wiki/Riddler">Supervillian</a></p>
+
+<p><a href="https://en.wikipedia.org/wiki/Batman">Superheroes</a></p>
+
+<img src="http://cdn.inquisitr.com/wp-content/uploads/2015/09/Batman-Beyond-Movie-670x377.jpg" alt="Show" style="width:304px;height:228px;">
+
+<img src="http://www.thenovelsound.com/wp-content/uploads/2014/12/gotham_by_midnight_cover_a_p.jpg" alt="Show" style="width:304px;height:228px;">   
+    </body>
+    <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    
+        <script>
+        $(".myButton").click(function () {
+            alert("Hey!");
+        });
+        
+       
+        </script>
+        <script>
+
+
+ 
+$(document).ready(function(){
+    $(".bruce").click(function(){
+
+        $(".bruce").animate({
+            left: '250px',
+            opacity: '0.7',
+            height: '150px',
+            width: '150px'
+        });
+
+
+
+
+    });
+});
+</script> 
+
+<script> 
+$(document).ready(function(){
+    $("button").click(function(){
+        $("div").animate({left: '250px', opacity: 0});
+    });
+});
+</script> 
+
+</html>
+
+
